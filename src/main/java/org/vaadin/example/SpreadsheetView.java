@@ -1,12 +1,10 @@
 package org.vaadin.example;
 
 import com.vaadin.addon.spreadsheet.Spreadsheet;
-import com.vaadin.annotations.Theme;
 import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 import com.vaadin.mpr.LegacyWrapper;
-import com.vaadin.mpr.core.HasLegacyComponents;
 import com.vaadin.mpr.core.MprTheme;
 
 import java.io.File;

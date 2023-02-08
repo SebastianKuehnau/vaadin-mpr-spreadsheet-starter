@@ -10,16 +10,16 @@
     <packaging>war</packaging>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
-        <vaadin.version>14.5.3</vaadin.version>
-        <flow.version>2.5.1</flow.version>
-        <vaadin8.version>8.12.3</vaadin8.version>
-        <jetty.version>9.4.31.v20200723</jetty.version>
+        <vaadin.version>23.3.5</vaadin.version>
+        <flow.version>23.3.3</flow.version>
+        <vaadin8.version>8.19.0</vaadin8.version>
+        <jetty.version>9.4.50.v20221201</jetty.version>
     </properties>
 
     <repositories>
@@ -158,6 +158,7 @@
             <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
