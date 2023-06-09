@@ -40,6 +40,6 @@ public class MainView extends VerticalLayout {
         // Use custom CSS classes to apply styling. This is defined in shared-styles.css.
         addClassName("centered-content");
 
-        add(new LegacyWrapper(new com.vaadin.ui.TextField("V7 Field")), textField, button);
+        add(new LegacyWrapper(new com.vaadin.ui.TextField("Name")), textField, button);
     }
 }
